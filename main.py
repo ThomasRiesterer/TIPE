@@ -105,8 +105,8 @@ def wall_collide_H(circle):
 ####################################################
 # Initialisation
 
-screen_res = (1280, 720)
-goal = (640, 50)
+screen_res = (1280,720)
+goal = (640,50)
 
 white = (255,255,255)
 red = (255,0,0)
@@ -126,18 +126,24 @@ screen.fill(gray)
 ####################################################
 # Main run body
 
-nb = 30
+nb = 50
 circles = []
 for i in range(nb):
-#    circles.append(Circle(randint(120, 1160), randint(80, 640), radius))
-    circles.append(Circle(randint(120, 1160), randint(80, 300), radius))    
+#    circles.append(Circle(randint(120,1160), randint(80,640), radius))
+    circles.append(Circle(randint(400,880), randint(250,500), radius))    
 
 walls = []
-walls.append(Wall(100, 60, 100, 660))
-walls.append(Wall(1180, 60, 1180, 660))
-walls.append(Wall(100, 60, 610, 60))
-walls.append(Wall(670, 60, 1180, 60))
-walls.append(Wall(100, 660, 1180, 660))
+
+walls.append(Wall(100,60,100,660))     # Left_Vertical
+walls.append(Wall(1180,60,1180,660))   # Right_Vertical
+walls.append(Wall(100,60,610,60))      # TopRight_Horizontal
+walls.append(Wall(670,60,1180,60))     # TopLeft_Horizontal
+walls.append(Wall(100,660,1180,660))   # Bottom_Horizontal
+
+#walls.append(Wall(620,150,620,190))    # Object1
+#walls.append(Wall(660,150,660,190))
+#walls.append(Wall(620,150,660,150))
+#walls.append(Wall(620,190,660,190))
 
 
 run = True
