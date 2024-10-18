@@ -11,4 +11,5 @@ Objectif :
 
 Semaine du 14 septembre :
 J'ai essaye d'ajouter un objet devant la sortie, mais je me rends compte que la simulation ne fonctionne plus.
+(Les cercles s'alignent le long de l'objet et ne bougent plus.)
 J'ecris un programme ou il n'y a strictement aucune collision.
