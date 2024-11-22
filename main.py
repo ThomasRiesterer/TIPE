@@ -126,6 +126,9 @@ def collide(circle):
         else:
             circle.vx = -speed
             circle.vy = 0
+    elif colliding_V:
+        circle.vx = 0
+        circle.vy = -speed
     elif colliding_D:
         normalized_speed = sqrt(circle.vx ** 2 + circle.vy ** 2)
         if circle.x < goal[0]:
@@ -134,9 +137,6 @@ def collide(circle):
         else:
             circle.vx = normalized_speed
             circle.vy = -normalized_speed
-    elif colliding_V:
-        circle.vx = 0
-        circle.vy = -speed
 
 
 ####################################################
