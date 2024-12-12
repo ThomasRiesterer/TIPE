@@ -1,0 +1,14 @@
+Ce qui a été fait:
+
+Une simulation de mouvement de foule, où chaque individu essaie de sortir d’une salle à une seule sortie. Les collisions entre individus sont gérées uniquement par des forces de répulsion
+L’ajout de coefficients sur les différentes forces qui s’appliquent aux individus, pour une simulation plus naturelle
+L’ajout du temps d'évacuation de tous les individus
+L’ajout d’un objet devant la sortie en forme de losange (et donc ajout de fonctions qui facilitent l’interaction entre objet et individu, si jamais on veut ajouter un deuxième objet)
+
+
+
+Planning jusqu'à fin janvier:
+
+Refaire une simulation de mouvement de foule plus classique, pas a base de force de répulsion (mais à base de vecteur vitesse qui s’annule sur la direction où il y a collision)
+Tester plusieurs cas : plusieurs densité d’individus, plusieurs nombre et placements d’objets, et vérifier le temps d'évacuation pour chaque cas
+Évaluer le niveau de densité d’individus de plusieurs endroits
