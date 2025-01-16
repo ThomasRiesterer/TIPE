@@ -1,15 +1,1 @@
-Semaine du 30 septembre : 
-Amelioration du programme sur la simulation de mouvement de foule, en particulier par rapport aux collisions.
 
-
-Semaine du 7 septembre :
-Objectif : 
-- Ajout d'un/des objets devant la sortie
-- Tracer une courbe decrivant le temps d'evacuation en fonction du nombre de personnes initiales
-- Eventuellement faire une simulation ou il n'y a strictement aucune collision
-
-
-Semaine du 14 septembre :
-J'ai essaye d'ajouter un objet devant la sortie, mais je me rends compte que la simulation ne fonctionne plus.
-(Les cercles s'alignent le long de l'objet et ne bougent plus.)
-J'ecris un programme ou il n'y a strictement aucune collision.
